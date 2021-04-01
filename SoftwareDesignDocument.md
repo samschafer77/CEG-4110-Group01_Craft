@@ -1,5 +1,5 @@
-Software Design Document
-Tank Duel Game with Voxel Engine
+#Software Design Document
+#Tank Duel Game with Voxel Engine
 1.0 Introduction
 1.1 Purpose
 1.2 Scope
