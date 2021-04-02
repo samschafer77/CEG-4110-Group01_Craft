@@ -1,0 +1,12 @@
+Software Requirements Specification
+Voxel Engine Tank Game
+
+Goals and Requirements
+•	1.0 There shall be at minimum two tanks.
+•	1.0.1 The tanks shall be able to traverse a vertical height of one block.
+•	1.0.2 The tanks shall be able to survive at least 5 collisions with the projectile block.
+•	1.1 The game shall have destructible terrain.
+•	1.2 The tanks shall shoot projectiles to attack.
+•	1.2.1 A new projectile block will be implemented.
+•	1.2.2 The projectiles shall destroy surrounding terrain.
+•	1.2.3 The projectile will have at minimum a range of 15 blocks.
