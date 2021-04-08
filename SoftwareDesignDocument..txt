@@ -56,6 +56,7 @@ Code:
 		double tankshell_velocityY = 1
 		//Gravity on block (Example value)
 		double gravity  = -0.10
+		tankshell_velocityY + gravity
 		//Check for collison with terrain blocks
 		//if collsion destory a ceartain amount of terrain
 			tankShellExplosion()
