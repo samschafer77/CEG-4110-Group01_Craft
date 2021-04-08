@@ -44,7 +44,7 @@ Code:
 		if(tankHp == 0)
 			// boot player out of tank and delete tank object
 		return tankHp;	
-Req 1.2, 1.2.2, 1.2.3
+Req 1.1, 1.2, 1.2.2, 1.2.3
 	While in the tank tank right click will shoot a projectile out of the tank 
 Code:
 	void fireTankShell()
