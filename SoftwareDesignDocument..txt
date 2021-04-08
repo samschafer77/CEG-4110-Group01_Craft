@@ -27,7 +27,7 @@ Code:
 				                    result = set()
 				                    return result
 Req 1.0.1
-	Rules for tank movement
+	Rules for tank movement.
 Code:
 	void tankMovement()
 	     	// Speed is just for an example value
@@ -35,7 +35,7 @@ Code:
 		int tank_velocity = 2;
 		//Block height 1 more than current level of tank automatically move on top of block
 Req 1.0.2
-	Despawn the tank after 5 collisions with projectile block
+	Despawn the tank after 5 collisions with projectile block.
 Code:
 	int tankHealth()
 		int tankHp = 5;
@@ -45,7 +45,8 @@ Code:
 			// boot player out of tank and delete tank object
 		return tankHp;	
 Req 1.1, 1.2, 1.2.2, 1.2.3
-	While in the tank tank right click will shoot a projectile out of the tank 
+	While in the tank right click will shoot a projectile out of the tank, within the function tankShellExplosion()
+	it will take care of the destructable terrain.
 Code:
 	void fireTankShell()
 		double tankShell_y = tankHeight
@@ -64,6 +65,6 @@ Code:
 		
 Req 1.2.1
 	The projectile block shall be implemented in the buldier.py file. The block’s number will be equal to 24.
-   The texture for the block will be added in the textures folder, in the texture.png file.
+        The texture for the block will be added in the textures folder, in the texture.png file.
 Code:        
 	TANK_SHELL = 24
