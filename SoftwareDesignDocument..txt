@@ -26,10 +26,46 @@ Code:
 				                    // Dimensions of the tank
 				                    result = set()
 				                    return result
-        
- 
+Req 1.0.1
+	Rules for tank movement.
+Code:
+	void tankMovement()
+	     	// Speed is just for an example value
+		// Will move with same controls as character
+		int tank_velocity = 2;
+		//Block height 1 more than current level of tank automatically move on top of block
+Req 1.0.2
+	Despawn the tank after 5 collisions with projectile block.
+Code:
+	int tankHealth()
+		int tankHp = 5;
+		//Check for collision with projectile block
+		//If collision tankHp--
+		if(tankHp == 0)
+			// boot player out of tank and delete tank object
+		return tankHp;	
+Req 1.1, 1.2, 1.2.2, 1.2.3
+	While in the tank right click will shoot a projectile out of the tank, within the function tankShellExplosion()
+	it will take care of the destructable terrain.
+Code:
+	void fireTankShell()
+		double tankShell_y = tankHeight
+		//Speed of projectile in X and Y direction to get a range of 15 blocks on a flat surface
+		//Speeds below are for an example
+		double tankshell_velocityX = 2
+		double tankshell_velocityY = 1
+		//Gravity on block (Example value)
+		double gravity  = -0.10
+		tankshell_velocityY + gravity
+		//Check for collison with terrain blocks
+		//if collsion destory a ceartain amount of terrain
+			tankShellExplosion()
+	void tankShellExplosion()
+		int radius = 3;
+		//remove blocks from terrain or disable collision
+		
 Req 1.2.1
 	The projectile block shall be implemented in the buldier.py file. The block’s number will be equal to 24.
-   The texture for the block will be added in the textures folder, in the texture.png file.
+        The texture for the block will be added in the textures folder, in the texture.png file.
 Code:        
 	TANK_SHELL = 24
