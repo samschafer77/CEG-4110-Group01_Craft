@@ -65,7 +65,7 @@ Code:
 		//remove blocks from terrain or disable collision
 		
 Req 1.2.1
-	The projectile block shall be implemented in the buldier.py file. The block’s number will be equal to 24.
-        The texture for the block will be added in the textures folder, in the texture.png file.
+	Add new block to item.h and item.cpp
 Code:        
-	TANK_SHELL = 24
+	#define TANK_SHELL 64 in the item.h
+	TANK_SHELL In items[] in the item.cpp file
