@@ -1,6 +1,6 @@
 # Group 01 CEG-4110 Spring 2021 Group Project
 **by Sam Schafer**
-**Jonathon Tomaro**
+**Jonathan Tomaro**
 **Josh**
 
 ## Craft Voxel Engine Tank Game
