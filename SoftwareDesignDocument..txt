@@ -69,3 +69,14 @@ Req 1.2.1
         The texture for the block will be added in the textures folder, in the texture.png file.
 Code:        
 	TANK_SHELL = 24
+Req 1.3, 1.3.1, 1.3.3
+	When the user types "/play tank minigame" into the command, spawn the user into an arena at a fixed location.
+Code: 
+	//this function will get called upon "/play tank minigame" being inputed into the command line
+	void gameStart()
+		//spawn user into arena at fixed location (Example value)
+		user_position_x = 2000 //positive 2000 blocks east
+		user_position_y = 1000 //positive 1000 blocks north
+		user_position_z = 20 //positive 20 blocks above base level
+		//make the user spawn as a tank (Example below)
+		user = new Tank()
