@@ -15,4 +15,5 @@ Goals and Requirements
 •	1.3.1 The user will be spawned into an arena as a tank.
 •	1.3.2 A enemy tank NPC will spawn in the arena after 10 seconds.
 •	1.3.3 The arena will be on a preset island.
-•	1.3.4 The first to score 5 hits on the other tank will win the minigame and the user will be taken back to the last location they were at before playing the tank minigame.
+•	1.3.4 The first to score 5 hits on the other tank will win the minigame.
+• 	1.3.5 When the minigame is over the user will be taken back to the last location they were at before playing the tank minigame.
