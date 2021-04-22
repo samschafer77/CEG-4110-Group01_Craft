@@ -81,5 +81,6 @@ Code:
 		user_position_z = 20 //positive 20 blocks above base level
 		//make the user spawn as a tank (Example below)
 		user = new Tank()
+		userActiveItem = TANK_SHELL
 
 
