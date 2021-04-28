@@ -4,8 +4,8 @@
 **Josh Abbott**
 
 ## Craft Voxel Engine Tank Game
-This will add a tank minigame to this Minecraft clone. When completed the user can type into the console "/play tank minigame" 
-and this will spawn the user as a tank into an arena to battle an opposing enemy tank using missile blocks. The terrain of the arena is
+This will add a tank minigame to this Minecraft clone. When completed the user can type into the console "/play tank minigame", 
+this will spawn the user as a tank into an arena to battle an opposing enemy tank using missile blocks. The terrain of the arena is
 completely destructible and both the user and npc enemy tank have five health points that decrease for every
 tank missile that hits them.
 
